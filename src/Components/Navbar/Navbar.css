@@ -1,8 +1,6 @@
 /*Edição da Navbar em si*/
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .navbar{
     display: flex;
@@ -20,18 +18,22 @@ body {
 }
 
 .number-highlight{
-    color: rgb(226, 43, 43);
+    color: #d00000;
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
     margin-right: 0px ;
 }
 
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #e12323 102.06%);
+    background: linear-gradient(267deg, #f48c06 0.36%, #d00000 102.06%);
     font-size: 20px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
 }
