@@ -1,19 +1,37 @@
 /*Edição da Navbar em si*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 70px;
 }
-/* */
+/* Aqui é onde eu edito os itens da navbar, que são de um UL */
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 80px;
     font-size: 20px;
 }
 
 .number-highlight{
     color: rgb(226, 43, 43);
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 0px ;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #e12323 102.06%);
+    font-size: 20px;
+    cursor: pointer;
 }
