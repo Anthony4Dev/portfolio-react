@@ -1,10 +1,15 @@
-import React from 'react'
-import '../Navbar/Navbar.css'
-import logo from '../../assets/logo.svg'
+import React from 'react';
+import '../Navbar/Navbar.css';
+
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <img src={logo} alt="" />
+            <div className='logo'>
+                <h2>Anthony
+                    <span className="number-highlight">4</span>
+                    Dev
+                </h2>
+            </div>
             <ul className="nav-menu">
                 <li>Home</li>
                 <li>Sobre mim</li>
@@ -15,7 +20,7 @@ const Navbar = () => {
 
             <div className="nav-connect">Conecte-se comigo</div>
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
