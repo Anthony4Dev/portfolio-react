@@ -1,0 +1,6 @@
+#eu-sobre {
+    width: 50%;
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
