@@ -5,7 +5,7 @@
     gap: 35px;
 }
 #eu{
-    margin-top: 100px;
+    margin-top: 150px;
     width: 50%;
     max-width: 250px;
     aspect-ratio: 1/1;
@@ -32,4 +32,34 @@
     text-align: center;
     font-size: 24px;
     line-height: 40px;   
+}
+.hero-action{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #f48c06 -5.09%, #d00000 106.28%);
+    cursor: pointer;
+}
+
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.hero-connect:hover{
+    border:2px solid #fff;
+}
+
+.hero-resume:hover{
+    border-color: #f48c06;
 }
