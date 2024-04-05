@@ -1,6 +1,120 @@
 #eu-sobre {
-    width: 50%;
-    max-width: 250px;
+    width: 100%;
+    max-width: 1000px;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.sobre-title {
+    position: relative;
+}
+
+.sobre-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.sobre-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.sobre-section {
+    display: flex;
+    gap: 80px;
+}
+
+.sobre-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.sobre-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sobre-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-skill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sobre-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.sobre-skill p {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sobre-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #f48c06 -5.09%, #d00000);
+}
+
+.sobre-achievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.sobre-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sobre-achievement:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+.sobre-achievement h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #f48c06 50.41%, #d00000 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sobre-achievement p {
+    font-size: 22px;
+    font-weight: 500;
 }

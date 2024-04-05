@@ -12,7 +12,7 @@ const Sobre = () => {
             </div>
             <div className="sobre-section">
                 <div className="sobre-left">
-                <img id='eu-sobre' src='src\assets\img_curriculo.jpg' alt="" />
+                    <img id='eu-sobre' src='src\assets\img_curriculo.jpg' alt="" />
                 </div>
                 <div className="sobre-right">
                     <div className="sobre-para">
@@ -20,10 +20,10 @@ const Sobre = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quam ad mollitia placeat vero sunt quasi dignissimos nam blanditiis saepe quae numquam ut nisi? Esse ullam aut veniam eos quae?</p>
                     </div>
                     <div className="sobre-skills">
-                        <div className="sobre-skill"><p>HTML & CSS</p><hr style={{width: "50%"}} /></div>
-                        <div className="sobre-skill"><p>React JS & Node.js</p><hr style={{width: "70%"}} /></div>
-                        <div className="sobre-skill"><p>Javascript & TestCafe</p><hr style={{width: "60%"}} /></div>
-                        <div className="sobre-skill"><p>Java Springboot & JUnit</p><hr style={{width: "50%"}} /></div>
+                        <div className="sobre-skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>
+                        <div className="sobre-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
+                        <div className="sobre-skill"><p>Javascript</p><hr style={{ width: "60%" }} /></div>
+                        <div className="sobre-skill"><p>Java</p><hr style={{ width: "50%" }} /></div>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const Sobre = () => {
                 <hr />
                 <div className="sobre-achievement">
                     <h1>1</h1>
-                    <p>PROTÓTIPO NO FIGMA</p>
+                    <p>PROTÓTIPO(S) NO FIGMA</p>
                 </div>
             </div>
         </div>
