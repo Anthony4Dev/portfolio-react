@@ -47,6 +47,8 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #f48c06 -5.09%, #d00000 106.28%);
     cursor: pointer;
+    border: none;
+    transition: border 0.2s ease-out;
 }
 
 .hero-resume{
@@ -54,6 +56,7 @@
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .hero-connect:hover{
