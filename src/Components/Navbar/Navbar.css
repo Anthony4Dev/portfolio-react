@@ -18,7 +18,10 @@
 }
 
 .number-highlight{
-    color: #d00000;
+    background: linear-gradient(270deg, #ff2020 50.41% , #f48c06 90.25% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .logo {
