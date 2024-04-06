@@ -17,7 +17,7 @@ const MyWork = () => {
         </div>
         <div className="mywork-showmore">
             <p>Mostrar Mais</p>
-            <img src={arrow_icon} alt="" />
+            <img className='arrow-icon' src={arrow_icon} alt="" />
         </div>
     </div>
   )
