@@ -32,7 +32,13 @@ const Contact = () => {
                     </div>
                 </div>
                 <form className="contact-right">
-                    <label htmlFor="">Islan Anthony</label>
+                    <label htmlFor="">Seu nome / Sua empresa</label>
+                    <input type="text" placeholder='Digite seu nome' name='name' />
+                    <label htmlFor="">Seu E-mail</label>
+                    <input type="email" placeholder='Digite seu E-mail' name="e-mail" id="e-mail" />
+                    <label htmlFor="">Escreva sua mensagem aqui!</label>
+                    <textarea name="message" id="" rows="8" placeholder='Escreva aqui'></textarea>
+                    <button type='submit' className="contact-submit">Envie agora</button>
                 </form>
             </div>
         </div>
