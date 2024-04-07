@@ -5,7 +5,7 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 
 const Sobre = () => {
     return (
-        <div className='sobre'>
+        <div id='sobre' className='sobre'>
             <div className="sobre-title">
                 <h1>Sobre mim</h1>
                 <img src={theme_pattern} alt="" />
