@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">Feito por Anthony4Dev</p>
+            <p className="footer-bottom-left">Feito por Anthony<span className="number-highlight">4</span>Dev</p>
             <div className="footer-bottom-right">
             </div>
         </div>
