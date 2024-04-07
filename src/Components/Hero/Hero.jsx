@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import { Link as AnchorLink } from 'react-scroll';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
     return (
