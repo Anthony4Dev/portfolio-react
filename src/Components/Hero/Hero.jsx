@@ -1,6 +1,16 @@
-import React from 'react'
-import './Hero.css'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import React from 'react';
+import './Hero.css';
+import resumePDF from '../../assets/Currículo_atualizado.pdf';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
+const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resumePDF;
+    link.download = 'Currículo_atualizado.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
 
 const Hero = () => {
     return (
@@ -10,10 +20,10 @@ const Hero = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi explicabo minima reiciendis mollitia</p>
             <div className="hero-action">
                 <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contato'>Conecte-se comigo</AnchorLink></div>
-                <div className="hero-resume">Meu Currículo</div>
+                <div className="hero-resume" onClick={downloadResume}>Meu Currículo</div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;
