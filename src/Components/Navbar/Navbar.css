@@ -92,7 +92,7 @@
         height: 100%;
         z-index: 2;
         transition:right 0.5s;
-        /*right: -350px;*/
+        right: -350px;
     }
 
     .nav-menu li{
