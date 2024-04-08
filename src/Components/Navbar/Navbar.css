@@ -56,6 +56,9 @@
 .nav-mob-close{
     display: none;
 }
+.nav-mob-open{
+    display: none;
+}
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
@@ -89,7 +92,7 @@
         height: 100%;
         z-index: 2;
         transition:right 0.5s;
-        right: -350px;
+        /*right: -350px;*/
     }
 
     .nav-menu li{
