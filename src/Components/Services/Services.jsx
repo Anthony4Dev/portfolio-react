@@ -7,7 +7,7 @@ import arrow_icon from '../../assets/arrow_icon.svg';
 const Services = () => {
     const handleServiceClick = (serviceNo) => {
         const serviceLinks = {
-            '01': 'link-do-servico-01',
+            '01': 'https://www.figma.com/proto/aQkuF0N4gyqfqGqzTzVPmF/MultiSa%C3%BAde?node-id=2-2&starting-point-node-id=181%3A2&scaling=scale-down&t=hqvK7AGwwVrfIKdy-1&mode=design',
             '02': 'link-do-servico-02',
             '03': 'link-do-servico-03',
             '04': 'https://anthony4dev.github.io/pokedex/' 
