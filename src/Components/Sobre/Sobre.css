@@ -9,7 +9,7 @@
 
 #eu-sobre {
     width: 50%;
-    max-width: 250px;
+    max-width: 550px;
     width: 100%;
     max-width: 1000px;
     aspect-ratio: 1/1;
@@ -111,6 +111,13 @@
     font-size: 60px;
     font-weight: 700;
     background: linear-gradient(270deg, #f48c06 50.41%, #d00000 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-highlight{
+    background: linear-gradient(270deg, #ff2020 50.41% , #f48c06 90.25% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

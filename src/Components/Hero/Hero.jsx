@@ -17,7 +17,7 @@ const Hero = () => {
         <div id='home' className='hero'>
             <img id='eu' src='src\assets\img_curriculo.jpg' alt="" />
             <h1><span> Me chamo Islan Anthony</span> sou desenvolvedor web.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi explicabo minima reiciendis mollitia</p>
+            <p>Estou disponível para novas oportunidades. Faça o download do meu currículo e explore esta página web e descubra como posso ajudar no seu projeto.</p>
             <div className="hero-action">
                 <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contato'>Conecte-se comigo</AnchorLink></div>
                 <div className="hero-resume" onClick={downloadResume}>Meu Currículo</div>

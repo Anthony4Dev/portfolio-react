@@ -94,11 +94,11 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Vamos conversar!</h1>
-                    <p> <h2>É um prazer receber sua mensagem!</h2> Estou ansioso para saber mais sobre suas ideias, projetos e como posso ajudar a torná-los realidade. Não hesite em entrar em contato para discutirmos oportunidades de colaboração ou qualquer outra questão que você tenha em mente.
+                    <p> <h2 className='contact-left-h2'>É um prazer receber sua mensagem!</h2> Estou ansioso para saber mais sobre suas ideias, projetos e como posso ajudar a torná-los realidade. Não hesite em entrar em contato para discutirmos oportunidades de colaboração ou qualquer outra questão que você tenha em mente.
 
                         Estou pronto para ouvir suas necessidades e encontrar soluções sob medida para você ou sua empresa. Vamos iniciar essa jornada juntos! <br />
 
-                    <h3><strong>Anthony<span className="number-highlight">4</span>Dev</strong></h3></p>
+                    <h3 className='contact-left-h3'><strong>Anthony<span className="number-highlight">4</span>Dev</strong></h3></p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="" /> <p>anthony.islan2005@gmail.com</p>

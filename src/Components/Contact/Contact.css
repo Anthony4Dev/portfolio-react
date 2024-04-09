@@ -51,6 +51,15 @@
     line-height: 35px;
 }
 
+.contact-left-h2{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-left-h3{
+    margin-top: 10px;
+}
+
 .contact-details {
     display: flex;
     flex-direction: column;

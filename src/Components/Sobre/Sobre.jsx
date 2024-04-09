@@ -12,12 +12,11 @@ const Sobre = () => {
             </div>
             <div className="sobre-section">
                 <div className="sobre-left">
-                    <img id='eu-sobre' src='src\assets\img_curriculo.jpg' alt="" />
                 </div>
                 <div className="sobre-right">
                     <div className="sobre-para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe ab, quam recusandae nostrum voluptatum possimus ducimus iste eos voluptate distinctio id veritatis aliquam libero explicabo iusto nemo aspernatur beatae.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quam ad mollitia placeat vero sunt quasi dignissimos nam blanditiis saepe quae numquam ut nisi? Esse ullam aut veniam eos quae?</p>
+                        <p>Habilidades em diversas linguagens e frameworks. Minha experiência inclui proficiência em linguagens como <span className='number-highlight'>JavaScript</span>, <span className='number-highlight'>TypeScript</span>, <span className='number-highlight'>PHP</span> e <span className='number-highlight'>Java</span>, domínio de frameworks como <span className='number-highlight'>ReactJS</span>, <span className='number-highlight'>React Native</span>, <span className='number-highlight'>BootStrap</span> e <span className='number-highlight'>Spring Boot</span>, além da utilização eficaz de ferramentas como <span className='number-highlight'>Node.js</span>, <span className='number-highlight'>Figma</span>, <span className='number-highlight'>JQuery</span>, <span className='number-highlight'>Git</span>, <span className='number-highlight'>TestCafe</span> e <span className='number-highlight'>PHPUnit</span>. Também possuo competência em bancos de dados como <span className='number-highlight'>MySQL</span> e <span className='number-highlight'>PostgreSQL</span>, e habilidade em linguagens de consulta, com foco em <span className='number-highlight'>SQL</span>.</p>
+                        <p>Além disso, tenho experiência freelance em Design de Interface de Usuário (<span className='number-highlight'>UI</span>) / Design de Experiência do Usuário (<span className='number-highlight'>UX</span>), incluindo um projeto acadêmico para um grupo de estudantes de fisioterapia.</p>
                     </div>
                     <div className="sobre-skills">
                         <div className="sobre-skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>
