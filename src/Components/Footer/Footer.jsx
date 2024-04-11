@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src-={footer_logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ducimus at iusto. Beatae, impedit? Eos in reiciendis, magni quaerat explicabo ad consectetur doloremque esse tenetur soluta. Illo soluta laborum delectus?</p>
+                <p>Obrigado por dedicar seu tempo para explorar meu portfólio. Sua análise e interesse significam muito para mim. Espero que você encontre as informações que procura e que tenha uma experiência agradável enquanto navega pelo meu trabalho. Se precisar de mais alguma coisa ou tiver alguma dúvida, estou à disposição para ajudar.</p>
             </div>
         </div>
         <hr />

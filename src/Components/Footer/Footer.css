@@ -11,8 +11,19 @@
 }
 
 .footer-top-left p{
+    color: #161616;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(264deg, #f48c06 0.36%, #d00000 102.06%);
+    display: flex;
     font-size: 20px;
-    max-width: 400px;
+    max-width: 610px;
+    transition: 0.6s ease;
+}
+
+.footer-top-left:hover p {
+    transform:scale(1.10);
+    transition: 0.6s;
 }
 
 .footer-top-right{
