@@ -11,13 +11,6 @@ const Footer = () => {
                 <img src-={footer_logo} alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ducimus at iusto. Beatae, impedit? Eos in reiciendis, magni quaerat explicabo ad consectetur doloremque esse tenetur soluta. Illo soluta laborum delectus?</p>
             </div>
-            <div className="footer-top-right">
-                <div className="footer-email-input">
-                    <img src={user_icon} alt="" />
-                    <input type="email" placeholder='Coloque seu E-mail' />
-                </div>
-                <div className="footer-subscribe">Envie</div>
-            </div>
         </div>
         <hr />
         <div className="footer-bottom">
