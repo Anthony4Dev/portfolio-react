@@ -33,7 +33,7 @@ const Sobre = () => {
                 </div>
                 <hr />
                 <div className="sobre-achievement">
-                    <h1>Xs</h1>
+                    <h1>4</h1>
                     <p>PROJETOS FEITOS</p>
                 </div>
                 <hr />
