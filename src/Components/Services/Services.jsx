@@ -14,7 +14,7 @@ const Services = () => {
         };
 
         if (serviceNo in serviceLinks) {
-            // Redirecionar para o link correspondente
+            
             window.location.href = serviceLinks[serviceNo];
         }
     };

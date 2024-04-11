@@ -19,10 +19,10 @@ const Sobre = () => {
                         <p>Além disso, tenho experiência freelance em Design de Interface de Usuário (<span className='number-highlight'>UI</span>) / Design de Experiência do Usuário (<span className='number-highlight'>UX</span>), incluindo um projeto acadêmico para um grupo de estudantes de fisioterapia.</p>
                     </div>
                     <div className="sobre-skills">
-                        <div className="sobre-skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>
-                        <div className="sobre-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
-                        <div className="sobre-skill"><p>Javascript</p><hr style={{ width: "60%" }} /></div>
-                        <div className="sobre-skill"><p>Java</p><hr style={{ width: "50%" }} /></div>
+                        <div className="sobre-skill"><p>Software Skills</p><hr style={{ width: "60%" }} /></div>
+                        <div className="sobre-skill"><p>Hardware Skills</p><hr style={{ width: "57%" }} /></div>
+                        <div className="sobre-skill"><p>Manutenção</p><hr style={{ width: "55%" }} /></div>
+                        <div className="sobre-skill"><p>Instalação</p><hr style={{ width: "53%" }} /></div>
                     </div>
                 </div>
             </div>
