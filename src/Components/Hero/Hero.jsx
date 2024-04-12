@@ -15,7 +15,7 @@ const downloadResume = () => {
 const Hero = () => {
     return (
         <div id='home' className='hero'>
-            <img id='eu' src='src\assets\img_curriculo.jpg' alt="" />
+            <img id='eu' src='src\assets\anthony_profile.jpg' alt="" />
             <h1><span> Me chamo Islan Anthony</span> sou desenvolvedor web.</h1>
             <p>Estou disponível para novas oportunidades. Faça o download do meu currículo e explore esta página web e descubra como posso ajudar no seu projeto.</p>
             <div className="hero-action">

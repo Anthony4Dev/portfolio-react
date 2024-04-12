@@ -58,6 +58,16 @@
     transition: 0.6s;
  }
 
+ .mywork-link {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.mywork-link:hover {
+    color: #ffffff; 
+}
+
+
  .mywork-showmore:hover{
     gap: 30px;
     transition: 0.6s;
@@ -93,5 +103,14 @@
         font-size: 18px;
         margin: 50px auto;
         cursor: pointer;
+    }
+
+    .mywork-link {
+        color: #ffffff;
+        text-decoration: none; 
+    }
+    
+    .mywork-link:hover {
+        color: #ffffff; 
     }
  }

@@ -7,7 +7,7 @@ const Services_Data = [
     {
         s_no:"02",
         s_name:"API(s) Dev",
-        s_desc:"API(s) desenvolvidas por mim"
+        s_desc:"Em breve API(S)"
     },
     {
         s_no:"03",
