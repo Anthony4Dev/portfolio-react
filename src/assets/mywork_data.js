@@ -8,7 +8,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_link: 'Anthony4Dev'
+        w_link: 'https://portfolio-react-ashen-seven.vercel.app/'
         
     },
     {
